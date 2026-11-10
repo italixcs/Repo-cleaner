@@ -33,7 +33,7 @@ Ask about missing facts or consequential design choices.
 Preserve application behavior and the repository's visibility.
 ```
 
-For automatic discovery, follow the [Codex or local Claude Code installation guide](docs/installation.md). Those are documented installation routes; native host execution has not been tested. The repository is private during review, so cloning requires access.
+For automatic discovery, follow the [Codex or local Claude Code installation guide](docs/installation.md). Those are documented installation routes; native host execution has not been tested.
 
 ## Example
 

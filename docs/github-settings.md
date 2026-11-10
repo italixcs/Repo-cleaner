@@ -1,6 +1,6 @@
 # GitHub settings handoff
 
-Prepared on 2026-11-10 for [italixcs/Repo-cleaner](https://github.com/italixcs/Repo-cleaner). The repository stays **private for review**.
+Prepared on 2026-11-10 for [italixcs/Repo-cleaner](https://github.com/italixcs/Repo-cleaner). GitHub currently reports the repository as **public**. This file update did not change visibility; the earlier private-review preference and the observed setting differ.
 
 ## About
 
@@ -31,13 +31,13 @@ These topic names describe the package and documented routes, not verified execu
 
 Prepared asset: [`docs/assets/social-preview.png`](assets/social-preview.png), 1280 × 640, opaque PNG under 1 MB.
 
-Upload under [Settings → General → Social preview](https://github.com/italixcs/Repo-cleaner/settings). GitHub currently permits uploads to public repos or private repos that have previously had an uploaded preview. This is a new private repo; the first upload may have to wait until publication. Committing the image does not activate it. Keep the repository private during this review.
+Upload under [Settings → General → Social preview](https://github.com/italixcs/Repo-cleaner/settings). GitHub currently permits uploads to public repos or private repos that have previously had an uploaded preview. The repository is now reported public, so a first upload can be made through Settings when authenticated access is available. Committing the image does not activate it. No visibility setting was changed by this workflow.
 
 ## Applied versus prepared
 
 | Setting | State | Detail |
 | --- | --- | --- |
-| Visibility | Preserved | Private for review |
+| Visibility | Observed | Public at read-back; this workflow did not change the setting |
 | About description | Prepared | Exact value above; settings update pending |
 | Topics | Prepared | Eight substantiated values above; settings update pending |
 | Homepage | Preserved | Empty; no external site exists |

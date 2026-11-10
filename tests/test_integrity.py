@@ -88,9 +88,9 @@ class Integrity(unittest.TestCase):
                                         capture_output=True)
                 self.assertNotEqual(second.returncode, 0, 'Existing installation was overwritten')
 
-    def test_topics_and_private_review(self):
+    def test_topics_and_visibility_metadata(self):
         data = json.loads((ROOT / 'docs/repository-metadata.json').read_text())
-        self.assertEqual(data['visibility'], 'private')
+        self.assertIn(data['visibility'], ('private', 'public', 'internal'))
         self.assertLessEqual(len(data['topics']), 20)
         self.assertEqual(len(data['topics']), len(set(data['topics'])))
         for topic in data['topics']:

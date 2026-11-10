@@ -6,8 +6,6 @@ Repo Cleaner is a portable folder of agent instructions, not a native plugin or 
 
 Use an agent that can read local Markdown and supporting files. Editing repositories requires file access; applying GitHub settings requires authorized GitHub access. Original generated artwork or screenshots need suitable optional tools. This skill itself has no service, backend, paid subscription, or extra API key. Your agent/model and optional tools may have their own costs.
 
-While this repository is private, Git cloning requires an account with access. Do not paste a token into commands or prompts; use your normal GitHub authentication.
-
 ## Manual use in any capable agent
 
 ```sh
@@ -88,7 +86,7 @@ To remove the skill, remove only its installed `repo-cleaner` folder from the ho
 
 ## Troubleshooting
 
-- **Clone denied:** the repo is private; check that your authenticated account has access.
+- **Clone denied:** check the URL and your GitHub access; private forks require authentication.
 - **Skill absent:** check `repo-cleaner/SKILL.md`, exact host location, workspace trust/settings, and a fresh session. Do not put the repository root where the skill folder belongs.
 - **Resources missing:** copy the entire package, including `references/`, `assets/`, and `agents/`.
 - **Cannot change topics:** use the prepared values in [GitHub settings](github-settings.md); a text file cannot apply them.

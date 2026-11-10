@@ -10,11 +10,13 @@ A fresh small Python utility fixture requested ordinary GitHub presentation and 
 
 The installed skill package validates. The six existing integrity checks cover the revised files. Local previews use actual downloaded standard Shields images, with live GitHub rendering still unverified.
 
+GitHub reported public during the final read-back; no visibility mutation was performed. The settings handoff records the difference from the earlier private-review preference.
+
 ## 0.1.0 baseline
 
 ## Package and documentation checks
 
-`python3 -m unittest discover -s tests -v` passes six checks covering the installable package, local links/anchors, complete Codex and Claude Code folder-copy commands, existing-install protection, topic syntax/private review metadata, social image dimensions/size, and static vector labels. The skill creator's package validator also passes on the installed skill source.
+`python3 -m unittest discover -s tests -v` passes six checks covering the installable package, local links/anchors, complete Codex and Claude Code folder-copy commands, existing-install protection, topic syntax/declared visibility metadata, social image dimensions/size, and static vector labels. The skill creator's package validator also passes on the installed skill source.
 
 The folder-copy checks run the documented shell commands with an isolated temporary home directory, compare every copied file by hash, and confirm a second run refuses to overwrite the installation. They do not launch Codex or Claude Code. PowerShell commands were reviewed but not executed on Windows.
 
