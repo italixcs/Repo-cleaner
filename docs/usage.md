@@ -62,4 +62,4 @@ only presentation files that need it.
 | GitHub settings | Applied, prepared, or blocked; exact values |
 | Remaining work | A few concrete priorities, if any |
 
-The workflow adapts to the repository; it does not impose Repo Cleaner's charcoal and silver style on your projects.
+The workflow adapts to the project. It defaults to GitHub’s normal document styling, standard badges, and ordinary links, with visuals chosen for the actual task.

@@ -7,3 +7,5 @@ The canonical distributable is `skills/repo-cleaner/`. Public installation guide
 Ask about missing facts or consequential design decisions; infer routine layout choices from the repository. Never invent compatibility, stats, badges, demos, or applied settings. Read `docs/github-settings.md` before changing metadata.
 
 Run `python3 -m unittest discover -s tests -v` before saving changes. Verify visible changes locally on desktop/mobile and light/dark; identify local rich-text previews honestly. Preserve provenance for screenshots and generated assets. No application build is required for this instruction/documentation repository.
+
+Default to GitHub-native document styling, standard flat badges, and ordinary links. Do not use the author's personal profile aesthetic unless requested. Prefer concrete tasks and output to decorative branding; maintain the source-by-source research record without redistributing upstream READMEs or assets.

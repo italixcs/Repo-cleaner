@@ -1,5 +1,11 @@
 # README and visual direction
 
+## Start with the repository, not a personal aesthetic
+
+Default to GitHub's normal headings, text, code blocks, spacing, and links. Use familiar flat Shields-style badges for real status or documented routes, not custom button-shaped SVGs for every action. Keep navigation as ordinary text links. Match an established project identity, but do not import the author's profile style or unrelated personal references into target repositories unless explicitly requested.
+
+Read [readme-patterns.md](readme-patterns.md) to choose useful structures from concrete repository patterns. Treat the patterns as options, not a required section list. If an upstream source has moved, is empty, or differs from a curator's description, record the current evidence and the gap.
+
 ## Shape the first screen around a decision
 
 Answer: What is this? Who is it for? What can I see or try? Keep the promise and primary action as selectable text even if a banner repeats them. Put proof near the top and keep the shortest useful installation route easy to find. Add a short navigation row if needed.
@@ -13,11 +19,11 @@ Choose sections from the project rather than filling a fixed template:
 | App | Actual screenshot or short task recording | Open demo or download | Setup, configuration, deployment |
 | Research or data | Reproducible figure or sample | Reproduce or inspect data | Method, provenance, limitations |
 
-Prefer a banner, one useful showcase, and a small badge row over decorative repetition. Omit sections that add no decision value. Avoid empty roadmaps, uninformative star charts, unused docs folders, and community links with no destination.
+Choose a useful example or showcase and a few substantiated badges. Add a logo or banner only when it helps identify the project; neither is mandatory. Omit sections that add no decision value. Avoid empty roadmaps, uninformative star charts, unused docs folders, and community links with no destination.
 
 ## Choose a visual direction
 
-Reuse the project's identity. If none exists, choose typography, palette, composition, and asset style from its audience and purpose. Ask before a meaningful rebrand when preferences are unresolved. Do not copy another project's logo, imagery, or wording.
+Reuse the project's identity. If none exists, use a restrained GitHub-native presentation and let the actual project/output provide visual interest. GitHub controls the document font and themes; do not invent a website font or CSS system for it. Ask before a meaningful rebrand when preferences are unresolved. Do not copy another project's logo, imagery, or wording.
 
 - Prefer native Markdown for explanation and simple tables. Use supported HTML only when it helps.
 - Do not depend on scripts, custom CSS, iframes, or autoplay in a README. Verify Mermaid support in the target surface before using it.
@@ -60,3 +66,9 @@ Keep the shortest first success in the README. Move platform variants, troublesh
 For a single skill, prefer `skills/<name>/SKILL.md` and its supporting resources. Keep the public README, contributing guide, changelog, and gallery outside the installable package. Do not move source modules, rename packages, or add deployment infrastructure as presentation cleanup. Explain structural changes that would affect links or distribution before making them.
 
 For every showcase, retain its source and capture method, including whether it is a concept, local render, or live result. Refresh related screenshots after visible changes. Remove stale proof when it cannot be updated.
+
+## Edit out generated-looking copy and structure
+
+Use direct project facts, concrete tasks, and actual tradeoffs. Remove repeated taglines, generic praise, numbered marketing chapters, decorative labels, empty roadmaps, uninformative feature tables, and copy that could describe almost any project. A README is a document, not a miniature SaaS landing page. Use headings people expect, such as Installation, Usage, Examples, Requirements, and Contributing, when those sections contain useful content. Keep the author's specific voice where it helps; do not force every repo into the same promotional cadence.
+
+Use Hallmark/GPT Taste or other design guidance when requested, adapting hierarchy, specificity, restraint, and readability to GitHub. Do not import their web-only animation, custom CSS/font, randomization, or component requirements into a README. Do not fabricate design-test scores or browser verification.

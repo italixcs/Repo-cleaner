@@ -23,14 +23,14 @@ List the few highest-impact gaps with evidence and priority. Separate factual pr
 
 ## 3. Build a coherent presentation
 
-Read [references/readme-and-visuals.md](references/readme-and-visuals.md). Choose a direction suited to the project, then implement the smallest complete set of assets and documents that makes it understandable and usable.
+Read [references/readme-and-visuals.md](references/readme-and-visuals.md). Default to GitHub-native document styling, standard flat badges, ordinary navigation links, and project-specific proof. Do not reuse an author’s personal profile aesthetic unless requested. Read [references/readme-patterns.md](references/readme-patterns.md) when choosing a structure or learning from reference repositories. Choose a direction suited to the project, then implement the smallest complete set of assets and documents that makes it understandable and usable.
 
 - Lead with a specific promise, useful visual proof, and a clear first action. Keep essential information as real text.
-- Create or reuse an appropriate banner and useful showcases; capture screenshots from actual outputs. Label concepts, fixtures, reconstructions, and local previews accurately.
+- Add a banner only when useful; prefer a concrete task, actual output, or useful showcase over decorative branding; capture screenshots from actual outputs. Label concepts, fixtures, reconstructions, and local previews accurately.
 - Add a restrained badge row with working destinations and substantiated claims.
 - Keep the shortest verified installation and usage example in the README. Link longer platform guides, troubleshooting, and examples without duplicating them.
 - Organize public docs and assets without moving application source or changing runtime/build behavior. Update links when moving documentation.
-- Match documentation depth to the project. Avoid filler sections, badge walls, decorative diagrams, and empty folder hierarchies.
+- Match documentation depth to the project. Remove generic marketing copy, repeated taglines, forced feature tables, filler sections, badge walls, decorative diagrams, and empty folder hierarchies. Keep the project’s specific voice.
 
 For skill repos, verify the installable folder includes `SKILL.md` and every referenced resource. Separate that package from public marketing docs. Document exact discovery paths per host, invocation examples, prerequisites, and tool requirements. State whether each route was runtime-tested, checked against host documentation, or only manually usable. Do not infer a plugin, marketplace listing, or universal agent support from a plain skill folder.
 

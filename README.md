@@ -1,98 +1,82 @@
-<p align="center">
-  <img src="docs/assets/hero.jpg" alt="Repo Cleaner — Give good projects a better first impression. A silver folder on a charcoal background." width="100%" />
-</p>
-
 <h1 align="center">Repo Cleaner</h1>
 
-<p align="center"><strong>Give good projects a better first impression.</strong><br />
-An agent skill for clear READMEs, useful visuals, better guides, and accurate GitHub discovery.</p>
+<p align="center">A skill for improving GitHub READMEs, examples, installation guides, and repository metadata.</p>
 
 <p align="center">
-  <a href="skills/repo-cleaner/SKILL.md"><img src="docs/assets/badge-skill.svg" alt="Agent skill" /></a>
-  <a href="LICENSE"><img src="docs/assets/badge-license.svg" alt="MIT license" /></a>
-  <a href="docs/installation.md"><img src="docs/assets/badge-install.svg" alt="Installation guide" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT" /></a>
+  <a href="skills/repo-cleaner/SKILL.md"><img src="https://img.shields.io/badge/format-Agent_Skills-blue" alt="Format: Agent Skills" /></a>
+  <a href="docs/installation.md#codex--documented-installation-route"><img src="https://img.shields.io/badge/guide-Codex-000000" alt="Codex installation guide" /></a>
+  <a href="docs/installation.md#claude-code--documented-installation-route"><img src="https://img.shields.io/badge/guide-Claude_Code-555555" alt="Claude Code installation guide" /></a>
 </p>
 
-<p align="center"><a href="#quick-start">Quick start</a> · <a href="#showcase">Showcase</a> · <a href="docs/installation.md">Installation</a> · <a href="docs/usage.md">Prompt guide</a> · <a href="docs/github-settings.md">GitHub settings</a></p>
+<p align="center"><a href="#getting-started">Getting started</a> · <a href="#example">Example</a> · <a href="docs/installation.md">Installation</a> · <a href="docs/usage.md">Usage</a> · <a href="docs/research/README.md">README research</a></p>
 
-A visitor should be able to understand your project, see what it does, and try it without hunting through the repository. Repo Cleaner helps an AI agent improve that whole path, from the About description to the first successful install.
+Repo Cleaner gives an AI agent a workflow for reviewing and improving a repository's presentation. It reads the project, checks what the README claims, and helps readers find an example, install the project, and reach the right documentation.
 
-It works across apps, libraries, tools, and AI skill repositories. Its scope is repository presentation; application behavior stays outside the makeover.
+It works with apps, libraries, command-line tools, and agent skills. The presentation should fit the project: familiar headings, ordinary badges, useful screenshots, and working links. A small utility can stay small.
 
-## Quick start
+## Getting started
 
-Clone this repository, then open it in your agent:
+Clone this repository and open it in an agent that can read local files:
 
 ```sh
 git clone https://github.com/italixcs/Repo-cleaner.git
 cd Repo-cleaner
 ```
 
-Give your agent this prompt and a target repository it can access:
+Then give it a target repository:
 
 ```text
 Read skills/repo-cleaner/SKILL.md and its referenced resources.
-Improve the presentation of [owner/repository]: README, visuals,
-installation guides, documentation navigation, and GitHub metadata.
+Use it to improve the presentation of [owner/repository].
 Ask about missing facts or consequential design choices.
-Keep the repository's current visibility.
+Preserve application behavior and the repository's visibility.
 ```
 
-For automatic skill discovery, follow the [Codex and Claude Code installation guide](docs/installation.md). Installation routes are checked against host documentation; host runtime testing is tracked separately in that guide. This repository is private during review, so cloning requires access to it.
+For automatic discovery, follow the [Codex or local Claude Code installation guide](docs/installation.md). Those are documented installation routes; native host execution has not been tested. The repository is private during review, so cloning requires access.
 
-## Showcase
+## Example
 
-**The first makeover is this repository.** It started with a title and one sentence. The new first screen adds a visual identity, a specific promise, useful navigation, and a first action.
+An audit of a small notes-app fixture found an installation command that did not exist, unsupported coverage and agent badges, and unrelated repository topics.
 
-[![Before and after local rich-text previews of Repo Cleaner's first screen, using the original README and this version at the same viewport](docs/assets/readme-transformation.png)](docs/showcase.md)
+![Condensed output from the actual notes-app audit: installation mismatch, unsupported badges, unrelated topics, and prepared settings](docs/assets/audit-example.png)
 
-*These are local rich-text previews, not screenshots of a live GitHub page. [View the source, full-size captures, and capture method](docs/showcase.md).*
+*Condensed audit output, rendered locally.*
 
-| Before | After |
-| --- | --- |
-| One-sentence introduction | Clear audience, purpose, and scope |
-| No useful example | This transformation and copyable prompts |
-| No installation path | Short first use plus host-specific guides |
-| No discovery plan | About text, topics with evidence, and a social image |
+The audit recommended `npm run dev` because the manifest defined `dev`, and marked the command as untested rather than claiming it had run. It proposed metadata without applying settings or changing files.
 
-## What the skill handles
+[Input and condensed output](docs/examples/notes-app-audit.md) · [Validation record](docs/validation.md)
 
-| Area | The result |
-| --- | --- |
-| First impression | A clear promise, strong opening, and a useful next action |
-| Visual identity | Banners and assets suited to each project's existing identity |
-| Evidence | Actual screenshots, examples, or short demos with honest captions |
-| Onboarding | Prerequisites, installation, first success, and deeper guides |
-| Discovery | Specific About text, relevant topics, and a prepared social preview |
-| Maintenance | Working links, clear asset sources, and fewer stale or repeated sections |
+## What it does
 
-It checks claims before decorating them. Badges need evidence, agent names need real installation routes, and mockups must be labelled. No promised stars, ranking tricks, or invented compatibility.
+- Reviews the first screen, examples, installation, deeper guides, and discovery metadata.
+- Rewrites and organizes the README around the project's actual users and tasks.
+- Creates or improves useful screenshots, demos, and banners when the project benefits from them.
+- Checks badges, platform claims, links, and commands against available evidence.
+- Prepares or applies authorized About text, topics, and social-preview settings, with their status clearly reported.
 
-## From audit to finished repo
+Ask for **audit only** to get recommendations without edits, or a **makeover** to implement changes. See [usage examples](docs/usage.md).
 
-1. **Understand:** read the project, audience, existing identity, and repository settings.
-2. **Prioritize:** find the few gaps that block understanding or first use.
-3. **Build:** improve the README, create useful assets, and connect the guides.
-4. **Verify:** check links, commands, desktop/mobile presentation, and metadata read-back.
+## For skill repositories
 
-Ask for **audit only** to get recommendations without edits. Ask for a **full makeover** to implement presentation changes. [See example prompts and expected outputs](docs/usage.md).
+The workflow checks the complete installable folder, keeps agent instructions separate from public guides, and documents installation per host. It distinguishes tested behavior, a documented installation route, and manual use.
 
-## For skill authors
+Repo Cleaner's package is in [`skills/repo-cleaner/`](skills/repo-cleaner/). It has no application server or extra API key of its own. Your agent and optional tools use their normal access and billing.
 
-Publishing a skill needs more than a good-looking title. Repo Cleaner checks that the installable folder is complete, separates agent instructions from human-facing docs, and documents installation and support status per host.
+## README research
 
-The installable package lives in [`skills/repo-cleaner/`](skills/repo-cleaner/). It contains the workflow, three focused references, a reusable brief, and Codex UI metadata. It needs no application server or additional API key of its own; your agent and any optional tools use their normal access and billing.
+The [reference notebook](docs/research/source-notes.md) records observations and lessons for all 101 examples in [Awesome README](https://github.com/matiassingers/awesome-readme), its 19 linked tool/recording READMEs, two architecture READMEs, and [Understand Anything](https://github.com/Egonex-AI/Understand-Anything).
 
-## Guides and project links
+That is 123 entries: 122 returned readable source; one returned empty content and is flagged. The review examines source and structure, not live browser appearance or whether a design caused attention or growth. [Coverage and design decisions](docs/research/README.md).
+
+## Documentation
 
 - [Installation and compatibility](docs/installation.md)
-- [Usage and prompt examples](docs/usage.md)
-- [Showcase and asset sources](docs/showcase.md)
-- [About text, topics, and social preview](docs/github-settings.md)
-- [Validation record and current limits](docs/validation.md)
-- [Contributing and verification](CONTRIBUTING.md)
-- [Changes](CHANGELOG.md) · [Report an issue](https://github.com/italixcs/Repo-cleaner/issues)
+- [Usage and prompts](docs/usage.md)
+- [GitHub settings handoff](docs/github-settings.md)
+- [Presentation decisions and asset sources](docs/showcase.md)
+- [Contributing](CONTRIBUTING.md) · [Changes](CHANGELOG.md) · [Issues](https://github.com/italixcs/Repo-cleaner/issues)
 
-Inspired by the clear visual presentation and multi-platform guidance in [Understand Anything](https://github.com/Egonex-AI/Understand-Anything). Repo Cleaner uses its own workflow and visual assets.
+## License
 
 [MIT](LICENSE) © 2026 Italixcs

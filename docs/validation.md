@@ -1,6 +1,16 @@
-# Validation record — 0.1.0
+# Validation record
 
 Checked on 2026-11-10. This is a record of the first review version, not a benchmark or a universal compatibility claim.
+
+## 0.2.0 presentation review
+
+The second version replaces the chrome-led opening and custom buttons with a native header, ordinary flat badges, and a task example. A source review covers 123 README entries, of which 122 returned nonempty content. This is source/structure coverage, not 122 live visual audits. See [the coverage record](research/README.md) and [per-source notes](research/source-notes.md).
+
+A fresh small Python utility fixture requested ordinary GitHub presentation and documentation-only changes. The updated skill replaced generic slogans and a forced feature table with concrete requirements, copy/import setup, function behavior, and sample input/output. It added no artwork, badges, dependencies, tests, or application-source changes. Examples were manually checked against the source; no host runtime was exercised.
+
+The installed skill package validates. The six existing integrity checks cover the revised files. Local previews use actual downloaded standard Shields images, with live GitHub rendering still unverified.
+
+## 0.1.0 baseline
 
 ## Package and documentation checks
 
