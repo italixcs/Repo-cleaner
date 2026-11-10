@@ -1,0 +1,10 @@
+{
+  "repository": "italixcs/Repo-cleaner",
+  "description": "An agent skill for better GitHub READMEs, visuals, showcases, guides, and repository discovery.",
+  "homepage": null,
+  "topics": ["agent-skills", "ai-agents", "readme", "documentation", "github", "developer-tools", "codex", "claude-code"],
+  "visibility": "private",
+  "social_preview_path": "docs/assets/social-preview.png",
+  "application_status": "prepared",
+  "reason": "GitHub connector has no repository metadata write operation; browser session is signed out."
+}

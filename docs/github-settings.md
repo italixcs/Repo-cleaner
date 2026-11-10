@@ -1,0 +1,50 @@
+# GitHub settings handoff
+
+Prepared on 2026-11-10 for [italixcs/Repo-cleaner](https://github.com/italixcs/Repo-cleaner). The repository stays **private for review**.
+
+## About
+
+Proposed description:
+
+```text
+An agent skill for better GitHub READMEs, visuals, showcases, guides, and repository discovery.
+```
+
+Leave the homepage empty until a useful real demo or documentation site exists. The README and guides already live here; no separate site is claimed.
+
+## Topics
+
+| Topic | Evidence |
+| --- | --- |
+| `agent-skills` | Installable SKILL.md and supporting resources |
+| `ai-agents` | Workflow intended for a file-reading agent |
+| `readme` | README planning, editing, and verification |
+| `documentation` | Installation guides and navigation workflow |
+| `github` | About, topics, social preview, and repository presentation |
+| `developer-tools` | Reusable workflow for project authors |
+| `codex` | Documented local skill installation route and UI metadata |
+| `claude-code` | Documented local skill installation route |
+
+These topic names describe the package and documented routes, not verified execution inside every agent host. No unrelated frameworks or agent names are added for traffic. Topic names are public even when a repository is private.
+
+## Social preview
+
+Prepared asset: [`docs/assets/social-preview.png`](assets/social-preview.png), 1280 × 640, opaque PNG under 1 MB.
+
+Upload under [Settings → General → Social preview](https://github.com/italixcs/Repo-cleaner/settings). GitHub currently permits uploads to public repos or private repos that have previously had an uploaded preview. This is a new private repo; the first upload may have to wait until publication. Committing the image does not activate it. Keep the repository private during this review.
+
+## Applied versus prepared
+
+| Setting | State | Detail |
+| --- | --- | --- |
+| Visibility | Preserved | Private for review |
+| About description | Prepared | Exact value above; settings update pending |
+| Topics | Prepared | Eight substantiated values above; settings update pending |
+| Homepage | Preserved | Empty; no external site exists |
+| Social preview | Prepared | Asset committed; upload eligibility is a separate setting |
+
+A connected GitHub content tool can write files but does not expose repository metadata updates. The browser session is signed out, so no authenticated settings update was possible. The maintainer can apply these values in the About gear menu. Do not interpret this document as proof settings were saved.
+
+## Sources
+
+Requirements checked 2026-11-10 against [GitHub topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) and [GitHub social previews](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview). Recheck before publication.

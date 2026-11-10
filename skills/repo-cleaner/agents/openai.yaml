@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Cleaner"
+  short_description: "Improve README visuals and repository discovery"
+  default_prompt: "Use $repo-cleaner to improve this repository’s README, visuals, guides, and GitHub discovery without changing application code."
