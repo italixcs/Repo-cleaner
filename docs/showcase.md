@@ -23,6 +23,6 @@ The user's requested direction is a familiar repository README, informed by [Und
 
 ## Verification limits
 
-The preview was typeset locally using Qt rich text and inspected at desktop and narrow widths in light and dark themes. Chromium could not start because socket creation was restricted. These checks approximate layout; live GitHub rendering, its HTML sanitizer, badge availability through its image proxy, and exact browser table scrolling remain unverified.
+The preview was typeset locally using Qt rich text and inspected at desktop and narrow widths in light and dark themes. Chromium could not start because socket creation was restricted. These local checks approximate layout. After the repository became publicly readable, its native GitHub desktop view was inspected: the header, standard badges, text links, code blocks, and audit image rendered correctly. Live mobile/dark-mode behavior and exact browser table scrolling remain unverified.
 
 [Asset sources and maintenance](assets/README.md) · [Validation record](validation.md)

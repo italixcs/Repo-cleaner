@@ -8,7 +8,7 @@ The second version replaces the chrome-led opening and custom buttons with a nat
 
 A fresh small Python utility fixture requested ordinary GitHub presentation and documentation-only changes. The updated skill replaced generic slogans and a forced feature table with concrete requirements, copy/import setup, function behavior, and sample input/output. It added no artwork, badges, dependencies, tests, or application-source changes. Examples were manually checked against the source; no host runtime was exercised.
 
-The installed skill package validates. The six existing integrity checks cover the revised files. Local previews use actual downloaded standard Shields images, with live GitHub rendering still unverified.
+The installed skill package validates. The six existing integrity checks cover the revised files. Local previews use actual downloaded standard Shields images. The final native GitHub desktop view was also inspected after the repository became publicly readable: the header, standard badges, navigation, code blocks, and audit image displayed correctly. Mobile and dark-mode checks remain local approximations.
 
 GitHub reported public during the final read-back; no visibility mutation was performed. The settings handoff records the difference from the earlier private-review preference.
 

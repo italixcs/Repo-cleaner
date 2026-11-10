@@ -33,6 +33,6 @@ The initial Chromium attempt was blocked by this environment's socket restrictio
 
 The audit image uses [its editable text](audit-example-source.md), condensed from [the actual fixture audit](../examples/notes-app-audit.md). It is typeset at 680px width with 20px body text and normal document headings. It is a source-based audit excerpt, not a fake application interface or a live GitHub screenshot.
 
-README previews use the current Markdown and actual standard badge SVGs downloaded from the four Shields URLs referenced by the README. The downloads succeeded; preview caches are not part of the distributable. Source and local-layout checks covered widths 320, 375, 414, 768, and 960px in light/dark themes. Live GitHub rendering remains unverified.
+README previews use the current Markdown and actual standard badge SVGs downloaded from the four Shields URLs referenced by the README. The downloads succeeded; preview caches are not part of the distributable. Source and local-layout checks covered widths 320, 375, 414, 768, and 960px in light/dark themes. The current native GitHub desktop view was subsequently inspected successfully; live mobile/dark-mode rendering remains unverified.
 
 The new social PNG uses ordinary typography and the project’s purpose, with no chrome-folder illustration. Its dimensions and size are checked by the existing integrity test. Uploading the file to GitHub’s Social preview setting remains a separate action.
