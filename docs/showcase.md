@@ -1,6 +1,10 @@
 # Presentation decisions
 
-The current README uses GitHub's normal document styling, standard Shields badges, ordinary navigation links, and a concrete audit example. The earlier chrome-folder banner and custom button-like badges are no longer used in the README or social preview.
+The current README uses an approved light document-style banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and a concrete audit example. The earlier chrome-folder banner and custom button-like badges are no longer used in the README or social preview.
+
+## Approved banner
+
+The new banner was previewed and approved before publication. Its light background, clear title, and small blue accent fit the existing repository presentation. The banner is the visible heading, while the project description remains native text below it. [Asset source and brief](assets/README.md#approved-readme-banner).
 
 ## Example and provenance
 

@@ -2,6 +2,8 @@
 
 ## 0.2.0 — 2026-11-10
 
+- Add the approved light README banner above the standard badges, with provenance and descriptive alt text.
+
 - Replace the chrome-led opening and custom SVG buttons with a native document header, standard badges, and ordinary links.
 - Add a concrete audit example and source-by-source notes for 123 README entries, with one empty response explicitly flagged.
 - Add reusable README patterns, stronger editing guidance, and a rule against importing personal profile aesthetics by default.

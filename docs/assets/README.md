@@ -2,6 +2,7 @@
 
 | Asset | Origin | Purpose |
 | --- | --- | --- |
+| `banner.png` | Approved original light banner, generated for this project | Current README masthead |
 | `hero.jpg` | Original AI-generated artwork created for Repo Cleaner; JPEG delivery conversion | Historical 0.1 identity; not used in the current README |
 | `badge-skill.svg`, `badge-license.svg`, `badge-install.svg` | Original editable vector labels | Historical 0.1 custom labels; replaced by standard badges |
 | `readme-before.png` | Qt rich-text render of the verbatim original README | Before state |
@@ -36,3 +37,9 @@ The audit image uses [its editable text](audit-example-source.md), condensed fro
 README previews use the current Markdown and actual standard badge SVGs downloaded from the four Shields URLs referenced by the README. The downloads succeeded; preview caches are not part of the distributable. Source and local-layout checks covered widths 320, 375, 414, 768, and 960px in light/dark themes. The current native GitHub desktop view was subsequently inspected successfully; live mobile/dark-mode rendering remains unverified.
 
 The new social PNG uses ordinary typography and the project’s purpose, with no chrome-folder illustration. Its dimensions and size are checked by the existing integrity test. Uploading the file to GitHub’s Social preview setting remains a separate action.
+
+## Approved README banner
+
+The current [banner](banner.png) was generated with OpenAI’s built-in image generation and approved in the conversation before publication. It is an original flat document illustration with a light background, charcoal title, and blue accent. It depicts Markdown headings, text, links, and an image placeholder; it is decorative identity, not a screenshot or evidence of application behavior. The original PNG is included without pixel edits.
+
+The generation brief specified a 3:1 README masthead with the exact text “Repo Cleaner” and “READMEs · Examples · Guides”, a restrained document illustration, generous margins, and no badges, third-party logos, fake interface chrome, or 3D rendering. The native project description, ordinary badges, and navigation remain outside the image.

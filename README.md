@@ -1,4 +1,6 @@
-<h1 align="center">Repo Cleaner</h1>
+<h1 align="center">
+  <img src="docs/assets/banner.png" alt="Repo Cleaner — READMEs, Examples, Guides" width="960" />
+</h1>
 
 <p align="center">A skill for improving GitHub READMEs, examples, installation guides, and repository metadata.</p>
 
