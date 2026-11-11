@@ -63,3 +63,9 @@ only presentation files that need it.
 | Remaining work | A few concrete priorities, if any |
 
 The workflow adapts to the project. It defaults to GitHub’s normal document styling, standard badges, and ordinary links, with visuals chosen for the actual task.
+
+## Restrained callouts
+
+Example request: “Use a short callout for easily missed setup advice if it helps readers. Keep headings and navigation for the main sections.”
+
+Expect zero to two alerts by default, with types chosen by meaning: Note for context, Tip for advice, Important for requirements, and Warning/Caution for problems or risks. A small README may need none. A security-scan result belongs in a dated Note linked to the full report.

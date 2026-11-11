@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1 — 2026-11-11
+
+- Add restrained GitHub callout guidance, semantic alert types, and fixed-title/rendering limits.
+- Use a Note for the repository security result and retain its dated scan badge.
+- Refresh the SkillSpector static scan for the updated installable package.
+
 ## 0.2.0 — 2026-11-10
 
 - Add the approved light README banner above the standard badges, with provenance and descriptive alt text.

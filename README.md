@@ -74,7 +74,7 @@ That is 123 entries: 122 returned readable source; one returned empty content an
 
 ### Security scan
 
-> [!TIP]
+> [!NOTE]
 > **Security scanning**<br>
 > Scanned with NVIDIA SkillSpector · **0 findings across 7 files**<br>
 > Maintainer-run static analysis · 11 November 2026 · No suppressions or caller exclusions<br>

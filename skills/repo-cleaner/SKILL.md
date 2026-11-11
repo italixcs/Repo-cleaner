@@ -28,6 +28,7 @@ Read [references/readme-and-visuals.md](references/readme-and-visuals.md). Defau
 - Lead with a specific promise, useful visual proof, and a clear first action. Keep essential information as real text.
 - Add a banner only when useful; prefer a concrete task, actual output, or useful showcase over decorative branding; capture screenshots from actual outputs. Label concepts, fixtures, reconstructions, and local previews accurately.
 - Add a restrained badge row with working destinations and substantiated claims.
+- Use GitHub-native callouts sparingly for short, actionable or easily missed information; choose the type by meaning, not color. Follow the callout guidance in the visual reference.
 - Keep the shortest verified installation and usage example in the README. Link longer platform guides, troubleshooting, and examples without duplicating them.
 - Organize public docs and assets without moving application source or changing runtime/build behavior. Update links when moving documentation.
 - Match documentation depth to the project. Remove generic marketing copy, repeated taglines, forced feature tables, filler sections, badge walls, decorative diagrams, and empty folder hierarchies. Keep the project’s specific voice.

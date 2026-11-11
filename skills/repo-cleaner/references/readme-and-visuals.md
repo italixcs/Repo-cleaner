@@ -33,6 +33,23 @@ Reuse the project's identity. If none exists, use a restrained GitHub-native pre
 - Keep essential assets in the repo, such as `docs/assets/`. Avoid temporary chat links, signed download URLs, and remote hotlinks for core proof.
 - Crop screenshots to the useful action. Exclude credentials, private paths, names, source, and unrelated tabs from public images.
 
+## Callouts for easily missed information
+
+Use GitHub-native alerts only when a short detail deserves extra attention. Default to zero to two per README; this is a restraint guideline, not a quota or a hard limit for essential warnings. Do not add callouts just to fill this allowance.
+
+- Choose `NOTE` for useful context (such as a dated security-scan result), `TIP` for practical advice, `IMPORTANT` for essential requirements, `WARNING` for urgent problems, and `CAUTION` for risks or negative consequences. Choose meaning before color.
+- Keep each callout to a few short lines and link longer details. Place it beside the relevant section. Do not wrap entire sections, repeat headings/content, stack alerts, or put one under every heading.
+- Use headings and a short table of contents for long-document navigation. Callouts are not a sidebar navigation system or a way to make the largest section louder.
+- Use `[!TYPE]` on its own blockquote line. GitHub supplies a fixed title/icon and color; do not promise custom titles, hidden labels, or arbitrary colors. Avoid CSS workarounds or images of text to imitate alerts. On other hosts, verify support and use a normal blockquote if needed.
+- For security results, state the tool, scan date, scope and mode; link evidence and preserve material limits. Do not imply certification, endorsement, or proof of safety.
+
+```markdown
+> [!NOTE]
+> Static scan: no findings in the reviewed revision. See the dated report for scope and limits.
+```
+
+Source: [GitHub alert syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
+
 ## Produce the right asset
 
 Use image generation for requested original bitmap artwork when available. Use editable SVG for exact marks and diagrams. Use the actual product or rendered document for screenshots and recordings. Never generate fake screenshots and call them evidence.
