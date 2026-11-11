@@ -1,6 +1,6 @@
 # Security scan
 
-On 2026-11-11, the maintainer ran [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) 2.12.0 against the complete `skills/repo-cleaner/` package at [commit 3fe1636](https://github.com/italixcs/Repo-cleaner/commit/3fe163651e36c59e82cfbc96ce03e00e5ee6cd8f).
+On 2026-11-11, the maintainer ran [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) 2.12.0 against the complete `skills/repo-cleaner/` package at [commit a6c41a0](https://github.com/italixcs/Repo-cleaner/commit/a6c41a0a2b813fe7b41ad232e3232ec9948c11b2).
 
 | Result | Reported value |
 | --- | --- |
@@ -13,7 +13,9 @@ On 2026-11-11, the maintainer ran [NVIDIA SkillSpector](https://github.com/NVIDI
 | Caller exclusions / baseline | None / none |
 | Exit code | 0 with failure-on-findings and failure-on-incomplete enabled |
 
-[Unmodified JSON report](skillspector-2026-11-11.json) · [Run metadata and SHA-256 hashes](scan-record.json)
+[Unmodified JSON report](skillspector-v0.2.1.json) · [Run metadata and SHA-256 hashes](scan-record-v0.2.1.json)
+
+Previous scan: [0.2.0 report](skillspector-2026-11-11.json) · [previous run record](scan-record.json).
 
 ## Scope and limits
 
@@ -31,7 +33,7 @@ Requires Python 3.12+ and uv. The scanner's pinned lockfile is used to reproduce
 git clone https://github.com/NVIDIA/SkillSpector.git skillspector-source
 git -C skillspector-source checkout 86d46b1721f029819020df396e8fa1c96eb83236
 git clone https://github.com/italixcs/Repo-cleaner.git repo-cleaner
-git -C repo-cleaner checkout 3fe163651e36c59e82cfbc96ce03e00e5ee6cd8f
+git -C repo-cleaner checkout a6c41a0a2b813fe7b41ad232e3232ec9948c11b2
 cd skillspector-source
 uv sync --frozen --no-dev
 LANGSMITH_TRACING=false LANGCHAIN_TRACING_V2=false \
