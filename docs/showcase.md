@@ -1,6 +1,6 @@
 # Presentation decisions
 
-The current README uses an approved light document-style banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and a concrete audit example. The earlier chrome-folder banner and custom button-like badges are no longer used in the README or social preview.
+The current README uses an approved light document-style banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and a Seed Atlas before/after comparison. The earlier chrome-folder banner and custom button-like badges are no longer used in the README or social preview.
 
 ## Approved banner
 
@@ -8,13 +8,16 @@ The new banner was previewed and approved before publication. Its light backgrou
 
 ## Example and provenance
 
+The [Seed Atlas comparison](examples/seedatlas.md) uses author-supplied before/after screenshots. Its static AI-composited illustration has a decorative central handle; unchanged originals are linked for exact evidence. The after screenshot is identified by its workflow banner. The source README response still showed the before text when checked, so this is not claimed as a verified live deployment.
+
+
 The [notes-app example](examples/notes-app-audit.md) condenses an actual audit-only smoke check. Its image is a local typeset view of that documented output, not a product screenshot or a live GitHub capture. It shows findings and their evidence rather than an invented interface.
 
 ## What changed after the first review
 
 - Replace custom SVG buttons with ordinary flat badges linking to the license, package, and installation guides.
 - Use one title and a direct description instead of repeating a slogan inside and below a large banner.
-- Put a small first-use route and a concrete audit example ahead of a feature inventory.
+- Put a small first-use route and a Seed Atlas before/after comparison ahead of a feature inventory.
 - Use normal headings and lists instead of turning every explanation into a table or a marketing section.
 - Keep visuals tied to a task or result; retain historical assets for provenance without displaying them as the current design.
 - Add [source-by-source research](research/source-notes.md) and fold its reusable lessons into the skill.

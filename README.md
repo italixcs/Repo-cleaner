@@ -39,15 +39,15 @@ For automatic discovery, follow the [Codex or local Claude Code installation gui
 
 ## Example
 
-An audit of a small notes-app fixture found an installation command that did not exist, unsupported coverage and agent badges, and unrelated repository topics.
+[Seed Atlas](https://github.com/italixcs/seedatlas) is our Minecraft Java client mod. These screenshots show its README before and after using Repo Cleaner.
 
-![Condensed output from the actual notes-app audit: installation mismatch, unsupported badges, unrelated topics, and prepared settings](docs/assets/audit-example.png)
+[![Seed Atlas README comparison: original text-heavy layout on the left; banner, badges, navigation and shorter feature overview on the right](docs/assets/seedatlas-comparison.png)](docs/examples/seedatlas.md)
 
-*Condensed audit output, rendered locally.*
+*Static, AI-composited comparison from supplied screenshots; the center handle is decorative. [Original before](docs/assets/seedatlas-before.jpeg) · [Original after](docs/assets/seedatlas-after.jpeg).*
 
-The audit recommended `npm run dev` because the manifest defined `dev`, and marked the command as untested rather than claiming it had run. It proposed metadata without applying settings or changing files.
+The redesign adds a workflow banner, version and license badges, direct download and guide links, and a shorter feature overview. Installation gets its own clear section.
 
-[Input and condensed output](docs/examples/notes-app-audit.md) · [Validation record](docs/validation.md)
+[Comparison details](docs/examples/seedatlas.md) · [Audit-only example](docs/examples/notes-app-audit.md)
 
 ## What it does
 

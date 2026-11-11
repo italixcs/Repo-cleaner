@@ -43,3 +43,7 @@ The new social PNG uses ordinary typography and the project’s purpose, with no
 The current [banner](banner.png) was generated with OpenAI’s built-in image generation and approved in the conversation before publication. It is an original flat document illustration with a light background, charcoal title, and blue accent. It depicts Markdown headings, text, links, and an image placeholder; it is decorative identity, not a screenshot or evidence of application behavior. The original PNG is included without pixel edits.
 
 The generation brief specified a 3:1 README masthead with the exact text “Repo Cleaner” and “READMEs · Examples · Guides”, a restrained document illustration, generous margins, and no badges, third-party logos, fake interface chrome, or 3D rendering. The native project description, ordinary badges, and navigation remain outside the image.
+
+## Seed Atlas comparison
+
+Added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` are unchanged author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). `seedatlas-comparison.png` is an AI-composited illustration produced from those two images: before left, banner version after right, proportional panels, small labels, center divider and decorative slider handle. Originals remain the exact evidence. See [comparison provenance](../examples/seedatlas.md).
