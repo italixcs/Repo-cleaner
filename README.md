@@ -9,6 +9,7 @@
   <a href="skills/repo-cleaner/SKILL.md"><img src="https://img.shields.io/badge/format-Agent_Skills-blue" alt="Format: Agent Skills" /></a>
   <a href="docs/installation.md#codex--documented-installation-route"><img src="https://img.shields.io/badge/guide-Codex-000000" alt="Codex installation guide" /></a>
   <a href="docs/installation.md#claude-code--documented-installation-route"><img src="https://img.shields.io/badge/guide-Claude_Code-555555" alt="Claude Code installation guide" /></a>
+  <a href="docs/security/README.md"><img src="https://img.shields.io/badge/SkillSpector-0_findings-2da44e" alt="SkillSpector: 0 findings in the static scan of 11 November 2026" /></a>
 </p>
 
 <p align="center"><a href="#getting-started">Getting started</a> · <a href="#example">Example</a> · <a href="docs/installation.md">Installation</a> · <a href="docs/usage.md">Usage</a> · <a href="docs/research/README.md">README research</a></p>
@@ -73,9 +74,13 @@ That is 123 entries: 122 returned readable source; one returned empty content an
 
 ### Security scan
 
-A maintainer-run [SkillSpector static scan](docs/security/README.md) on 2026-11-11 reported **0 findings** across all **7 files** in the installable package, with no suppressions or caller exclusions. The report includes the scanned revision, file hashes, and reproduction steps.
-
-LLM analysis and agent-host runtime behavior were not tested. This is a scan result, not proof of safety or NVIDIA certification.
+> [!TIP]
+> **Security scanning**<br>
+> Scanned with NVIDIA SkillSpector · **0 findings across 7 files**<br>
+> Maintainer-run static analysis · 11 November 2026 · No suppressions or caller exclusions<br>
+> [View the report and reproduction steps →](docs/security/README.md)
+>
+> Static scan; not a certification. LLM analysis and agent-host runtime behavior were not tested.
 
 ## Documentation
 
