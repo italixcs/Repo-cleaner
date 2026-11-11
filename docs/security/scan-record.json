@@ -1,0 +1,25 @@
+{
+  "scanner_repository": "https://github.com/NVIDIA/SkillSpector",
+  "scanner_version": "2.12.0",
+  "scanner_commit": "86d46b1721f029819020df396e8fa1c96eb83236",
+  "scanner_lockfile_sha256": "11f7b9c9873573222fe6990219226054fa342f50e71767949f6a5040b3ff8ca0",
+  "target_repository": "https://github.com/italixcs/Repo-cleaner",
+  "target_commit": "3fe163651e36c59e82cfbc96ce03e00e5ee6cd8f",
+  "target_path": "skills/repo-cleaner",
+  "scanned_at": "2026-11-11T09:32:11.878764+00:00",
+  "python_version": "3.12.14",
+  "mode": "static (--no-llm)",
+  "exit_code": 0,
+  "baseline": null,
+  "caller_exclusions": [],
+  "report_sha256": "fbda36fa01d6e2d161ebd6a37eafebc9a57bbaac137ba60c645b612edefb4087",
+  "package_sha256": {
+    "SKILL.md": "68276864024c64cc38d3a719ac626a229f1266a98220d365b4ec350e25bd619f",
+    "agents/openai.yaml": "291d6fe4a2ea50638284d7d98898252af5fbd214034531c79b008f50eb088bf9",
+    "assets/repo-brief.md": "903e4f590651ebb22f9a6bb58d96b2c335aef814e734f40ea1fd4aaec4261740",
+    "references/audit-and-validation.md": "bcf2c2bdcd7a4626828480bdf10315fe8800d995f0e7fe6bcc7ae12c1827ce78",
+    "references/github-discovery.md": "26dca4fbf7ce495c9e19859473afb780a25d03f875ae688d01f47bffee68af1b",
+    "references/readme-and-visuals.md": "91d5086e72c94aba184e28578ad8b679ab37fec9e8f598935250420a481f0b67",
+    "references/readme-patterns.md": "bdcd161963a32f368badd0699b00a5b263e884d3334589f3f59b556cc73bfb1a"
+  }
+}

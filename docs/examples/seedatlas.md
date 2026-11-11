@@ -4,7 +4,7 @@
 
 ## Before and after
 
-![Static before-and-after comparison with a central divider](../assets/seedatlas-comparison2.png)
+![Static before-and-after comparison with a central divider](../assets/seedatlas-comparison.png)
 
 - [Original before screenshot](../assets/seedatlas-before.jpeg): text-led introduction, source-build instructions, and a long usage section.
 - [Original after screenshot](../assets/seedatlas-after.jpeg): workflow banner, standard badges, download and documentation navigation, concise feature list, and a dedicated installation section.

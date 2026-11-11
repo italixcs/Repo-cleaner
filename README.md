@@ -71,6 +71,12 @@ The [reference notebook](docs/research/source-notes.md) records observations and
 
 That is 123 entries: 122 returned readable source; one returned empty content and is flagged. The review examines source and structure, not live browser appearance or whether a design caused attention or growth. [Coverage and design decisions](docs/research/README.md).
 
+### Security scan
+
+A maintainer-run [SkillSpector static scan](docs/security/README.md) on 2026-11-11 reported **0 findings** across all **7 files** in the installable package, with no suppressions or caller exclusions. The report includes the scanned revision, file hashes, and reproduction steps.
+
+LLM analysis and agent-host runtime behavior were not tested. This is a scan result, not proof of safety or NVIDIA certification.
+
 ## Documentation
 
 - [Installation and compatibility](docs/installation.md)
