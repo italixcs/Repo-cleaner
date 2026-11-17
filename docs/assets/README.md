@@ -47,3 +47,7 @@ The generation brief specified a 3:1 README masthead with the exact text “Repo
 ## Seed Atlas comparison
 
 Added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` are unchanged author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). `seedatlas-comparison.png` is an AI-composited illustration produced from those two images: before left, banner version after right, proportional panels, small labels, center divider and decorative slider handle. Originals remain the exact evidence. See [comparison provenance](../examples/seedatlas.md).
+
+## Section icons added 2026-11-17
+
+The README uses seven locally hosted Lucide outline SVGs. The [source notice](icons/NOTICE.md) records upstream file hashes, explicit-stroke recolouring, and the full ISC/MIT notices. The same starter set is bundled with the skill for adaptation. The selection follows [section-icon guidance](../../skills/repo-cleaner/references/section-icons.md); no Google/Chrome logo or other project artwork is included.

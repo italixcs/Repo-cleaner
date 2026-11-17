@@ -1,0 +1,76 @@
+{
+  "reviewed_on": "2026-11-17",
+  "method": "Downloaded linked assets and inspected images; upstream assets not redistributed",
+  "assets": [
+    {
+      "file": "understand.png",
+      "url": "https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/assets/hero.png",
+      "bytes": 750417,
+      "sha256": "fe0f78cd25ce27cd970bd25fd142b6723384d674308b9da525dda25679056440",
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "file": "dify.png",
+      "url": "https://raw.githubusercontent.com/langgenius/dify/main/images/GitHub_README_if.png",
+      "bytes": 72664,
+      "sha256": "62b3964aebc90859f65f8302bfab854dbd59dd5d14dc16f3e1a8661728a73c4c",
+      "dimensions": [
+        2700,
+        1424
+      ]
+    },
+    {
+      "file": "opc.png",
+      "url": "https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/website/opc-banner.png",
+      "bytes": 156323,
+      "sha256": "8241919fbf321c49c709b3c4b93381024f51b0440b2694ab400630f8b475a04e",
+      "dimensions": [
+        1280,
+        640
+      ]
+    },
+    {
+      "file": "vhs.png",
+      "url": "https://user-images.githubusercontent.com/42545625/198402537-12ca2f6c-0779-4eb8-a67c-8db9cb3df13c.png",
+      "bytes": 226992,
+      "sha256": "4af904590d1a08b99edf825d3fc24eec78986af9faba647f964afb8bdd5dac40",
+      "dimensions": [
+        1085,
+        638
+      ]
+    },
+    {
+      "file": "ollama.png",
+      "url": "https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7",
+      "bytes": 92041,
+      "sha256": "f26f913f8d49f0628778bbff32fd3362ebddddc9a89c82b83daccfdcbe6dc3bd",
+      "dimensions": [
+        844,
+        844
+      ]
+    },
+    {
+      "file": "smolagents.png",
+      "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/smolagents/smolagents.png",
+      "bytes": 169194,
+      "sha256": "7c527ee01b7557a41cd2246949c6d52ce7ff8ac630d76b8754f7b492e1c3fba3",
+      "dimensions": [
+        4086,
+        1065
+      ]
+    },
+    {
+      "file": "browser-use.png",
+      "url": "https://github.com/user-attachments/assets/2ccdb752-22fb-41c7-8948-857fc1ad7e24",
+      "bytes": 31186,
+      "sha256": "04d9bd9aa9962d772469cc11e96f23a9a2afb78ae7282d23d4194cf1b4de65e5",
+      "dimensions": [
+        2242,
+        557
+      ]
+    }
+  ]
+}

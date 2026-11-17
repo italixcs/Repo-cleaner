@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-11-17
+
+- Ground banners in verified project tasks, outputs, or existing identity.
+- Add five adaptable banner recipes, specificity checks, and a worked prompt.
+- Add focused AI/skill/template research and inspection of seven visual assets.
+- Add a licensed outline icon starter set and project/topic colour rules.
+- Demonstrate section icons in the README; record validation limits.
+
 ## 0.2.1 — 2026-11-11
 
 - Add restrained GitHub callout guidance, semantic alert types, and fixed-title/rendering limits.

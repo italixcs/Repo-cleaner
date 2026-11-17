@@ -54,3 +54,17 @@ These checks show useful behavior on two small tasks. Larger repositories, other
 The generated banner was visually inspected. Local Qt rich-text previews were inspected at widths of 960px and 390px in light/dark themes. The social PNG is 1280 × 640 and below 1 MB. See [asset provenance](assets/README.md).
 
 Chromium could not start because socket creation was restricted. Qt previews approximate layout; live GitHub rendering, its HTML sanitizer, browser table scrolling, native agent discovery, Windows execution, and applied metadata settings remain unverified. The GitHub connector can write content but exposes no metadata update operation; the browser session was signed out. [Exact settings are prepared](github-settings.md).
+
+## 2026-11-17 banner and section-icon update
+
+The structural validator passes on the installed candidate. Six repository integrity tests pass, covering package/links, complete folder-copy installation, existing-install protection, metadata, social image specification, and historical SVG labels. Heading-anchor handling was adapted to ignore decorative HTML image tags. No product runtime support is inferred.
+
+Manual review exercised three decisions: the worked Repo Cleaner transformation brief maps visual elements to repository evidence; a synthetic file-based memory skill supports a saved-note handoff concept without invented vector/cloud services; the tiny LineCount fixture needs a text-first opening and real command/output rather than artwork. A safe two-line input returned `2` under Python. These are author reviews, not independent behavioral evidence. Three fresh-agent checks were attempted but each stopped at the host usage limit before producing results. They remain blocked; no A/B improvement claim is made.
+
+The seven icon SVGs parse, contain no script/foreignObject/external references, and use explicit strokes. Calculated contrast against white and GitHub-dark backgrounds exceeds 4:1 for each colour (minimum approximately 4.08:1). Shape and heading text preserve meaning without colour. Licensed upstream geometry is unchanged.
+
+Local Qt rich-text previews were inspected at 960px and 360px in light/dark surroundings. The heading icons remain recognizable and align with their text. These are approximations: network badges were omitted, code wrapping and alert treatment differ from GitHub, and the showcase requires its linked originals for phone reading. Chromium could not launch because socket creation was denied. Native GitHub rendering and actual anchor behavior remain unverified for this revision.
+
+No new banner was generated. The worked example validates the concept/prompt stage only; the approved existing artwork remains. The [focused research](research/banner-and-icons.md) distinguishes source review from seven actual asset inspections.
+
+The [final static scan](security/banner-update.md) fully inspected 19/19 files with zero findings. A prose apostrophe that confused the shell parser was rephrased without changing the prompt meaning. Earlier incomplete scans remain private evidence; no suppression or caller exclusion was added. The prior 0.2.1 report is historical only.

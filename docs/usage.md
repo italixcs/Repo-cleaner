@@ -69,3 +69,11 @@ The workflow adapts to the project. It defaults to GitHub’s normal document st
 Example request: “Use a short callout for easily missed setup advice if it helps readers. Keep headings and navigation for the main sections.”
 
 Expect zero to two alerts by default, with types chosen by meaning: Note for context, Tip for advice, Important for requirements, and Warning/Caution for problems or risks. A small README may need none. A security-scan result belongs in a dated Note linked to the full report.
+
+## Project-specific banners and section icons
+
+Example request: “Make the banner explain what this project does. Base its scene on the code, instructions, or actual output. Use small outline section icons with colours that fit the project.”
+
+Expect an evidence-backed concept, a selected composition recipe, and inspection of the result at phone/desktop widths in light/dark. Actual screenshots remain distinct from artwork. See the [worked brief](examples/banner-brief.md) and [research decisions](research/banner-and-icons.md).
+
+For icons, expect one consistent outline family, topic-specific shapes, and a small stable palette. Use the project accent for the first action, related tones for topics, and explicit labels plus amber/red for actual caveats or danger. Headings remain selectable text.

@@ -35,6 +35,8 @@ Reuse the project's identity. If none exists, use a restrained GitHub-native pre
 
 ## Callouts for easily missed information
 
+For visual section landmarks, use the separate [section-icon guidance](section-icons.md). Icons can identify topics without turning every heading into an alert.
+
 Use GitHub-native alerts only when a short detail deserves extra attention. Default to zero to two per README; this is a restraint guideline, not a quota or a hard limit for essential warnings. Do not add callouts just to fill this allowance.
 
 - Choose `NOTE` for useful context (such as a dated security-scan result), `TIP` for practical advice, `IMPORTANT` for essential requirements, `WARNING` for urgent problems, and `CAUTION` for risks or negative consequences. Choose meaning before color.
@@ -51,6 +53,8 @@ Use GitHub-native alerts only when a short detail deserves extra attention. Defa
 Source: [GitHub alert syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts).
 
 ## Produce the right asset
+
+For banners, use [banner-design.md](banner-design.md) and the [banner recipes](../assets/banner-templates.md). Establish what the image communicates about this project before choosing a style. A banner can provide identity or illustrate a capability; only source-backed captures and reproducible results provide visual proof.
 
 Use image generation for requested original bitmap artwork when available. Use editable SVG for exact marks and diagrams. Use the actual product or rendered document for screenshots and recordings. Never generate fake screenshots and call them evidence.
 

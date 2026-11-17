@@ -1,5 +1,7 @@
 # Security scan
 
+**Current update:** the [0.3.0 banner/icon scan](banner-update.md) fully inspected 19/19 files with zero findings and no suppressions or exclusions. The older result below is retained for provenance.
+
 On 2026-11-11, the maintainer ran [NVIDIA SkillSpector](https://github.com/NVIDIA/SkillSpector) 2.12.0 against the complete `skills/repo-cleaner/` package at [commit a6c41a0](https://github.com/italixcs/Repo-cleaner/commit/a6c41a0a2b813fe7b41ad232e3232ec9948c11b2).
 
 | Result | Reported value |

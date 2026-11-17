@@ -1,5 +1,7 @@
 # README research
 
+The [2026-11-17 banner and icon follow-up](banner-and-icons.md) adds focused visual inspection, AI/skill examples, concept recipes, and section-icon guidance. The original review below remains a dated record.
+
 Source review completed on 2026-11-10 using the user's [Awesome README collection](https://github.com/matiassingers/awesome-readme) and [Understand Anything reference](https://github.com/Egonex-AI/Understand-Anything).
 
 ## Coverage

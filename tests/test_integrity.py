@@ -20,6 +20,7 @@ def prose(text):
 
 
 def anchor(text):
+    text = re.sub(r'<[^>]+>', '', text).strip()
     return re.sub(r'[^\w\- ]', '', text.lower()).replace(' ', '-')
 
 
