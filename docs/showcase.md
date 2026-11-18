@@ -1,14 +1,14 @@
 # Presentation decisions
 
-The current README uses transparent monochrome document artwork above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and the refreshed Seed Atlas before/after comparison. The earlier light banner, chrome-folder banner and custom button-like badges are retained as historical assets.
+The current README uses a full-color illustrated mascot banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and the refreshed Seed Atlas before/after comparison. The earlier light banner, chrome-folder banner and custom button-like badges are retained as historical assets.
 
-## Transparent banner
+## Illustrated mascot banner
 
-The banner illustrates a dense Markdown document becoming a clearer README with a visual example and sections. It is conceptual artwork, not a screenshot. Black ink on transparency is used for light themes; white ink on transparency is selected for dark themes through `<picture>`. The reusable PNGs, editable SVG tint wrapper and the [generation brief and prompts](assets/readme-refresh-prompts.md) are included. The project description and first-use instructions remain native text below it.
+The banner shows two cute 2D Claude/Codex-inspired mascots collaborating on README presentation: Claude works at the dense input document; Codex presents an organized page. The characters follow the author-supplied references: an orange block-shaped pet and a blue terminal pet, with no name labels. Warm ivory, coral and blue keep it colorful and readable without 3D rendering. These original generated characters are unofficial illustrations, not authorship evidence or an endorsement. The project description and first-use instructions remain native text below it. Earlier transparent monochrome variants remain historical assets.
 
 ## Example and provenance
 
-The [Seed Atlas comparison](examples/seedatlas.md) uses the updated author-supplied comparison from 18 November 2026. Its static AI-edited display image has a decorative central handle; the unchanged source is linked for exact evidence. A GitHub source read confirmed the refreshed banner and README sections on the default branch; no new live browser capture is claimed.
+The [Seed Atlas comparison](examples/seedatlas.md) uses the updated author-supplied comparison from 18 November 2026. Its static AI-edited display image retains only the decorative central handle and has no mascots; the unchanged source is linked for exact evidence. A GitHub source read confirmed the refreshed banner and README sections on the default branch; no new live browser capture is claimed.
 
 
 The [notes-app example](examples/notes-app-audit.md) condenses an actual audit-only smoke check. Its image is a local typeset view of that documented output, not a product screenshot or a live GitHub capture. It shows findings and their evidence rather than an invented interface.

@@ -2,9 +2,11 @@
 
 | Asset | Origin | Purpose |
 | --- | --- | --- |
-| `banner-light.png`, `banner-dark.png`, `banner-dark.svg` | Original generated transparent black-ink PNG plus a self-contained SVG tint wrapper and its Inkscape PNG export, 18 November 2026 | Current theme-aware README masthead |
+| `banner-mascots.jpg` | Built-in image generation edit using author-supplied orange block-pet and blue terminal-pet references, 18 November 2026; baseline JPEG export | Current full-color 2D mascot README masthead |
+| `banner-light.png`, `banner-dark.png`, `banner-dark.svg` | Earlier transparent monochrome banner and tint wrapper | Historical masthead variants |
 | `seedatlas-comparison-source.png` | Unchanged author upload `IMG_0417.png`, 18 November 2026 | Exact source for refreshed comparison |
-| `seedatlas-comparison.png` | AI-edited version of the current source, adding a decorative center handle | Current comparison display; source is exact evidence |
+| `seedatlas-comparison-full.jpg` | Baseline RGB JPEG export of the complete handle-only PNG | Current comparison display, free of mascots; new path avoids the previously truncated image URL |
+| `seedatlas-comparison.png` | Earlier AI-edited version of the current source, adding a decorative center handle | Historical PNG display; source is exact evidence |
 | `banner.png` | Approved original light banner, generated for this project | Historical README masthead |
 | `hero.jpg` | Original AI-generated artwork created for Repo Cleaner; JPEG delivery conversion | Historical 0.1 identity; not used in the current README |
 | `badge-skill.svg`, `badge-license.svg`, `badge-install.svg` | Original editable vector labels | Historical 0.1 custom labels; replaced by standard badges |
@@ -15,7 +17,7 @@
 | `audit-example.png` | Local typesetting of the condensed actual audit output | Current README example |
 | `audit-example-source.md` | Editable text behind the current example image | Source for regeneration |
 
-The README now uses ordinary live Shields badges. The older custom vector labels and generated banner are retained only as historical assets. Current audit and social images were typeset for this project. No third-party repository screenshots, brand marks, or artwork were reused. The original source remains the linked Markdown; badges are directly editable SVG. Generated artwork is decorative, not evidence of a working product.
+The README now uses ordinary live Shields badges. The older custom vector labels and generated banner are retained only as historical assets. Current audit and social images were typeset for this project. No artwork or screenshots from the reference repository were reused. The banner uses original generated Claude/Codex-inspired mascots. The original source remains the linked Markdown; badges are directly editable SVG. Generated artwork is decorative, not evidence of a working product.
 
 ## Historical 0.1 banner prompt
 
@@ -49,11 +51,11 @@ The generation brief specified a 3:1 README masthead with the exact text “Repo
 
 ## Seed Atlas comparison
 
-The original comparison was added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` remain unchanged historical author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). On 2026-11-18, `seedatlas-comparison.png` was replaced by an AI-edited version of the new author-supplied `IMG_0417.png`, preserved unchanged as `seedatlas-comparison-source.png`. The current comparison shows the updated three-part Seed Atlas banner and adds a decorative center handle. See [comparison provenance](../examples/seedatlas.md).
+The original comparison was added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` remain unchanged historical author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). On 2026-11-18, `seedatlas-comparison.png` was replaced by an AI-edited version of the new author-supplied `IMG_0417.png`, preserved unchanged as `seedatlas-comparison-source.png`. The comparison shows the updated three-part Seed Atlas banner and a decorative center handle. Its current JPEG export uses a fresh filename following an earlier truncated PNG upload. Mascots appear only in the masthead. See [comparison provenance](../examples/seedatlas.md).
 
 ## Transparent banner refresh
 
-Added 2026-11-18. The current black-ink PNG and white-ink PNG export use genuine alpha transparency and show dense Markdown becoming structured documentation. They are conceptual art, separate from the actual Seed Atlas proof. GitHub `<picture>` markup selects white ink for dark themes and black ink for light themes; black is the fallback. Use the contrasting variant on other background colors. [Exact prompts and reference patterns](readme-refresh-prompts.md) · [Validation](readme-refresh-validation.md).
+Added 2026-11-18. The historical black-ink PNG and white-ink PNG export use genuine alpha transparency and show dense Markdown becoming structured documentation. They are conceptual art, separate from the actual Seed Atlas proof. GitHub `<picture>` markup selects white ink for dark themes and black ink for light themes; black is the fallback. Use the contrasting variant on other background colors. [Exact prompts and reference patterns](readme-refresh-prompts.md) · [Validation](readme-refresh-validation.md).
 
 ## Section icons added 2026-11-17
 

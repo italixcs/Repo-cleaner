@@ -4,7 +4,7 @@
 
 ## Before and after
 
-![Static before-and-after comparison with a central divider](../assets/seedatlas-comparison.png)
+![Static before-and-after comparison with a central divider](../assets/seedatlas-comparison-full.jpg)
 
 - **Before, left:** text-led introduction, source-build instructions, and a long usage section.
 - **After, right:** updated structure → seed analysis → atlas concept banner, standard badges, download and documentation navigation, concise feature list, and a dedicated installation section.
@@ -19,3 +19,7 @@ On 2026-11-18, a source read of the [Seed Atlas default-branch README](https://g
 ## Earlier comparison
 
 The [before](../assets/seedatlas-before.jpeg) and [after](../assets/seedatlas-after.jpeg) screenshots supplied on 2026-11-11 remain as historical source material. They are not the inputs for the refreshed image. The current edit prompt is recorded in the [asset notes](../assets/readme-refresh-prompts.md).
+
+## Image delivery repair
+
+The comparison stays free of mascots. The original complete handle-only PNG is exported to a baseline RGB JPEG at a fresh path (`seedatlas-comparison-full.jpg`) to avoid the previously truncated PNG URL. Both panels and the center handle remain; the unchanged source above is still exact evidence.

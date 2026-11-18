@@ -33,3 +33,17 @@ Source READMEs reviewed through GitHub on 18 November 2026:
 - [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills): concise descriptions and clear use cases.
 
 These informed restraint and text-first explanation; no upstream artwork, logos or wording were copied. This was a source review, not a visual browser audit of those projects.
+
+
+## Current reference-based 2D mascot banner
+
+Final direction: use the author's orange block-shaped Claude pet and blue Codex terminal pet. No name labels. These characters appear only in the masthead; the comparison remains mascot-free. Inputs: the previously generated 2D banner (edit target), `IMG_0420.jpeg` (blue mascot reference), `IMG_0421.png` (orange mascot reference). The reference screenshots are not redistributed in this repository.
+
+Built-in image generation edit prompt:
+
+> Create a beautiful ultrawide 3:1 GitHub README banner for "Repo Cleaner". Full color, charming hand-drawn 2D mascot illustration, NOT 3D. Inspired by the warmth of an open-source repository's cute crab pet, but original artwork, no copied upstream image.
+Background pale warm ivory with very subtle paper texture. Large exact headline "Repo Cleaner" in dark ink, elegant friendly editorial sans-serif, left third. Small exact subtitle "READMEs · Examples · Guides". Strong legibility, spacious carefully balanced layout, 6% safe margins.
+Across center and right, a miniature illustrated documentation workshop. Two CUTE SIMPLE 2D MASCOTS with a small number of confidently drawn shapes, fine dark ink outlines, restrained flat coral/teal colors, whimsical faces, tiny feet/arms, approachable indie open-source character design. In middle, Claude-inspired little terracotta orange crab/sunburst creature, dark dot eyes, tiny legs and claws, working intently at a laptop on a dense README represented by a loose paper page with short markdown-like ink strokes. On right, Codex-inspired little cream/teal terminal creature with friendly black rounded terminal face, a tiny >_ glyph, little feet and hands, happily presenting an improved README page with green/gold landscape thumbnail, tiny colored badges and neatly spaced section lines. Cute characters rather than generic corporate robots. The mascots should feel like little pets helping with documentation, equal friendly collaborators. Small unobtrusive handwritten "Claude" and "Codex" name labels close to them.
+Simple curved ink arrow or drifting paper sheet connects the two pages. Keep pages supporting props, mascots engaging but modest, headline largest. Original tasteful illustration, clear silhouette, subtle hand-drawn irregularities, light flat shadow shapes only. No 3D render, clay, plastic, photorealism, volumetric shading, glossy highlights, neon, dark cinematic backdrop, gradients, busy decorations, stars, sparkle confetti, sliders, comparison screenshot, enormous eyes or giant heads. No extra text or watermark. All characters and pages fit fully inside canvas. Make it feel lovingly designed and clean rather than a stock AI banner.
+
+Delivery: baseline RGB JPEG. Previous candidate banners are not used in the README.

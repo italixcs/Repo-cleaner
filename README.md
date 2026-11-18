@@ -1,9 +1,5 @@
 <h1 align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="docs/assets/banner-light.png" />
-    <img src="docs/assets/banner-light.png" alt="Repo Cleaner" width="960" />
-  </picture>
+  <img src="docs/assets/banner-mascots.jpg" alt="Repo Cleaner — cute Claude and Codex mascots helping turn dense Markdown into a clear README" width="960" />
 </h1>
 
 <p align="center">A skill for improving GitHub READMEs, examples, installation guides, and repository metadata.</p>
@@ -45,7 +41,7 @@ For automatic discovery, follow the [Codex or local Claude Code installation gui
 
 [Seed Atlas](https://github.com/italixcs/seedatlas) is our Minecraft Java client mod. These screenshots show its README before and after using Repo Cleaner.
 
-[![Seed Atlas README comparison: original text-heavy layout on the left; banner, badges, navigation and shorter feature overview on the right](docs/assets/seedatlas-comparison.png)](docs/examples/seedatlas.md)
+[![Seed Atlas README comparison: original text-heavy layout on the left; banner, badges, navigation and shorter feature overview on the right](docs/assets/seedatlas-comparison-full.jpg)](docs/examples/seedatlas.md)
 
 *Updated Seed Atlas comparison, supplied 18 November 2026. The center handle is decorative; this is a static AI-edited image. [Unchanged source](docs/assets/seedatlas-comparison-source.png) · [Comparison details](docs/examples/seedatlas.md).*
 
