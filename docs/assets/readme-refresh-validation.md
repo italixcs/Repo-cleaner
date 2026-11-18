@@ -10,4 +10,4 @@ Scope: colorful 2D mascot banner, complete mascot-free comparison and provenance
 - Six repository integrity tests passed: `python3 -m unittest discover -s tests -v`. `git diff --check` passed.
 - Earlier transparent monochrome banner variants and the handle-only PNG remain historical assets. Discarded generated 3D concepts are not included.
 
-No new SkillSpector scan or host-runtime test is claimed. Live GitHub verification is recorded below after publication to the existing PR branch.
+No new SkillSpector scan or host-runtime test is claimed. Live GitHub desktop verification on the existing PR branch succeeded: the reference-based banner rendered with both mascots and no name labels, and the comparison rendered completely through its bottom border with the center handle visible. Live mobile viewport and dark-theme switching were not exercised; the local asset layout checks cover those widths/backgrounds only.
