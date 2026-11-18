@@ -2,7 +2,10 @@
 
 | Asset | Origin | Purpose |
 | --- | --- | --- |
-| `banner.png` | Approved original light banner, generated for this project | Current README masthead |
+| `banner-light.png`, `banner-dark.png`, `banner-dark.svg` | Original generated transparent black-ink PNG plus a self-contained SVG tint wrapper and its Inkscape PNG export, 18 November 2026 | Current theme-aware README masthead |
+| `seedatlas-comparison-source.png` | Unchanged author upload `IMG_0417.png`, 18 November 2026 | Exact source for refreshed comparison |
+| `seedatlas-comparison.png` | AI-edited version of the current source, adding a decorative center handle | Current comparison display; source is exact evidence |
+| `banner.png` | Approved original light banner, generated for this project | Historical README masthead |
 | `hero.jpg` | Original AI-generated artwork created for Repo Cleaner; JPEG delivery conversion | Historical 0.1 identity; not used in the current README |
 | `badge-skill.svg`, `badge-license.svg`, `badge-install.svg` | Original editable vector labels | Historical 0.1 custom labels; replaced by standard badges |
 | `readme-before.png` | Qt rich-text render of the verbatim original README | Before state |
@@ -40,13 +43,17 @@ The new social PNG uses ordinary typography and the project’s purpose, with no
 
 ## Approved README banner
 
-The current [banner](banner.png) was generated with OpenAI’s built-in image generation and approved in the conversation before publication. It is an original flat document illustration with a light background, charcoal title, and blue accent. It depicts Markdown headings, text, links, and an image placeholder; it is decorative identity, not a screenshot or evidence of application behavior. The original PNG is included without pixel edits.
+The historical [light banner](banner.png) was generated with OpenAI’s built-in image generation and approved in the conversation before publication. It is an original flat document illustration with a light background, charcoal title, and blue accent. It depicts Markdown headings, text, links, and an image placeholder; it is decorative identity, not a screenshot or evidence of application behavior. The original PNG is included without pixel edits.
 
 The generation brief specified a 3:1 README masthead with the exact text “Repo Cleaner” and “READMEs · Examples · Guides”, a restrained document illustration, generous margins, and no badges, third-party logos, fake interface chrome, or 3D rendering. The native project description, ordinary badges, and navigation remain outside the image.
 
 ## Seed Atlas comparison
 
-Added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` are unchanged author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). `seedatlas-comparison.png` is an AI-composited illustration produced from those two images: before left, banner version after right, proportional panels, small labels, center divider and decorative slider handle. Originals remain the exact evidence. See [comparison provenance](../examples/seedatlas.md).
+The original comparison was added 2026-11-11. `seedatlas-before.jpeg` and `seedatlas-after.jpeg` remain unchanged historical author-supplied screenshots (IMG_0370.jpeg and IMG_0369.jpeg respectively). On 2026-11-18, `seedatlas-comparison.png` was replaced by an AI-edited version of the new author-supplied `IMG_0417.png`, preserved unchanged as `seedatlas-comparison-source.png`. The current comparison shows the updated three-part Seed Atlas banner and adds a decorative center handle. See [comparison provenance](../examples/seedatlas.md).
+
+## Transparent banner refresh
+
+Added 2026-11-18. The current black-ink PNG and white-ink PNG export use genuine alpha transparency and show dense Markdown becoming structured documentation. They are conceptual art, separate from the actual Seed Atlas proof. GitHub `<picture>` markup selects white ink for dark themes and black ink for light themes; black is the fallback. Use the contrasting variant on other background colors. [Exact prompts and reference patterns](readme-refresh-prompts.md) · [Validation](readme-refresh-validation.md).
 
 ## Section icons added 2026-11-17
 
