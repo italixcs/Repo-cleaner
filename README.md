@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="docs/assets/banner.png" alt="Repo Cleaner — READMEs, Examples, Guides" width="960" />
+  <img src="docs/assets/banner-mascots.jpg" alt="Repo Cleaner — cute Claude and Codex mascots helping turn dense Markdown into a clear README" width="960" />
 </h1>
 
 <p align="center">A skill for improving GitHub READMEs, examples, installation guides, and repository metadata.</p>
@@ -41,9 +41,9 @@ For automatic discovery, follow the [Codex or local Claude Code installation gui
 
 [Seed Atlas](https://github.com/italixcs/seedatlas) is our Minecraft Java client mod. These screenshots show its README before and after using Repo Cleaner.
 
-[![Seed Atlas README comparison: original text-heavy layout on the left; banner, badges, navigation and shorter feature overview on the right](docs/assets/seedatlas-comparison.png)](docs/examples/seedatlas.md)
+[![Seed Atlas README comparison: original text-heavy layout on the left; banner, badges, navigation and shorter feature overview on the right](docs/assets/seedatlas-comparison-full.jpg)](docs/examples/seedatlas.md)
 
-*Static, AI-composited comparison from supplied screenshots; the center handle is decorative. [Original before](docs/assets/seedatlas-before.jpeg) · [Original after](docs/assets/seedatlas-after.jpeg).*
+*Updated Seed Atlas comparison, supplied 18 November 2026. The center handle is decorative; this is a static AI-edited image. [Unchanged source](docs/assets/seedatlas-comparison-source.png) · [Comparison details](docs/examples/seedatlas.md).*
 
 The redesign adds a workflow banner, version and license badges, direct download and guide links, and a shorter feature overview. Installation gets its own clear section.
 

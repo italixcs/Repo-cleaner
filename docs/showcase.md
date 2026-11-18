@@ -1,14 +1,14 @@
 # Presentation decisions
 
-The current README uses an approved light document-style banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and a Seed Atlas before/after comparison. The earlier chrome-folder banner and custom button-like badges are no longer used in the README or social preview.
+The current README uses a full-color illustrated mascot banner above GitHub's normal document styling, standard Shields badges, ordinary navigation links, and the refreshed Seed Atlas before/after comparison. The earlier light banner, chrome-folder banner and custom button-like badges are retained as historical assets.
 
-## Approved banner
+## Illustrated mascot banner
 
-The new banner was previewed and approved before publication. Its light background, clear title, and small blue accent fit the existing repository presentation. The banner is the visible heading, while the project description remains native text below it. [Asset source and brief](assets/README.md#approved-readme-banner).
+The banner shows two cute 2D Claude/Codex-inspired mascots collaborating on README presentation: Claude works at the dense input document; Codex presents an organized page. The characters follow the author-supplied references: an orange block-shaped pet and a blue terminal pet, with no name labels. Warm ivory, coral and blue keep it colorful and readable without 3D rendering. These original generated characters are unofficial illustrations, not authorship evidence or an endorsement. The project description and first-use instructions remain native text below it. Earlier transparent monochrome variants remain historical assets.
 
 ## Example and provenance
 
-The [Seed Atlas comparison](examples/seedatlas.md) uses author-supplied before/after screenshots. Its static AI-composited illustration has a decorative central handle; unchanged originals are linked for exact evidence. The after screenshot is identified by its workflow banner. The source README response still showed the before text when checked, so this is not claimed as a verified live deployment.
+The [Seed Atlas comparison](examples/seedatlas.md) uses the updated author-supplied comparison from 18 November 2026. Its static AI-edited display image retains only the decorative central handle and has no mascots; the unchanged source is linked for exact evidence. A GitHub source read confirmed the refreshed banner and README sections on the default branch; no new live browser capture is claimed.
 
 
 The [notes-app example](examples/notes-app-audit.md) condenses an actual audit-only smoke check. Its image is a local typeset view of that documented output, not a product screenshot or a live GitHub capture. It shows findings and their evidence rather than an invented interface.
@@ -29,6 +29,8 @@ Hallmark informed the restraint, specificity, avoidance of fake interface chrome
 The user's requested direction is a familiar repository README, informed by [Understand Anything](https://github.com/Egonex-AI/Understand-Anything) and [Awesome README](https://github.com/matiassingers/awesome-readme). Personal profile imagery and colors are not a default design system for this skill or its target projects.
 
 ## Verification limits
+
+For the 18 November refresh, see the [current asset validation](assets/readme-refresh-validation.md). The following describes earlier releases:
 
 The preview was typeset locally using Qt rich text and inspected at desktop and narrow widths in light and dark themes. Chromium could not start because socket creation was restricted. These local checks approximate layout. After the repository became publicly readable, its native GitHub desktop view was inspected: the header, standard badges, text links, code blocks, and audit image rendered correctly. Live mobile/dark-mode behavior and exact browser table scrolling remain unverified.
 
